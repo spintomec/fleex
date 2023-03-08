@@ -15,7 +15,8 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="font-sans antialiased">
-        <div class="min-h-screen bg-gray-100">
+        {{-- id="app" contient le code vue.js --}}
+        <div class="min-h-screen bg-gray-100" id="app">
             @include('layouts.navigation')
 
             <!-- Page Heading -->
