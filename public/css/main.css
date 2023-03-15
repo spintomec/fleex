@@ -1,0 +1,128 @@
+@import './base.css';
+@import './navbar.css';
+
+.first-section {
+    background-color: rgba(60, 67, 75, 0.65);
+    font-family: Proxima Nova;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 100px;
+    color: white;
+    display: flex;
+    border-radius: 50px;
+}
+
+.first-section h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.first-section p {
+    padding-right: 100px;
+    margin-bottom: 10px;
+}
+
+.first-section a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 3.25px;
+}
+
+.first-section a:hover {
+    color: rgba(156, 156, 156, 0.65) !important;
+}
+
+.first-section a:after {
+    transition: 0.5s ease !important;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: ".";
+    color: transparent;
+    background: #aaa;
+    height: 1px;
+}
+
+.first-section a:hover:after {
+    width: 100%;
+}
+
+.second-section {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 260px 80px 80px;
+    grid-template-areas: "image" "text" "stats";
+    border-radius: 18px;
+    background: rgba(60, 67, 75, 0.65);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    font-family: roboto;
+    text-align: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin: 30px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background: rgba(226, 226, 226, 0.65);
+    color: black;
+}
+
+.card-image {
+    grid-area: image;
+    background: url("../image/photo.jpeg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-image-2 {
+    grid-area: image;
+    background: url("../image/photo3.jpeg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card-image-3 {
+    grid-area: image;
+    background: url("../image/photo2.jpeg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.text-in-card {
+    grid-area: text;
+    color: WHITE;
+}
+
+h3 {
+    color: white;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titre {
+    margin-top: 50px;
+    color: white;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 3.25px;
+    text-align: center;
+}

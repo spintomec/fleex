@@ -2,7 +2,8 @@
     <div class="overflow-hidden overflow-x-auto min-w-full align-middle sm:rounded-md">
         <div class="flex place-content-end mb-4">
             <div class="px-4 py-2 text-white bg-indigo-600 hover:bg-indigo-700 cursor-pointer" style="background-color: blueviolet;">
-                <router-link :to="{ name: 'companies.create' }" class="text-sm font-medium">Create company</router-link>
+                <router-link :to="{ name: 'companies.create' }" class="text-sm font-medium">Create a task</router-link>
+                
             </div>
         </div>
 
@@ -15,15 +16,15 @@
                 </th>
                 <th class="px-6 py-3 bg-gray-50">
                     <span
-                        class="text-xs font-medium tracking-wider leading-4 text-left text-gray-500 uppercase">Email</span>
+                        class="text-xs font-medium tracking-wider leading-4 text-left text-gray-500 uppercase">Category</span>
                 </th>
                 <th class="px-6 py-3 bg-gray-50">
                     <span
-                        class="text-xs font-medium tracking-wider leading-4 text-left text-gray-500 uppercase">Address</span>
+                        class="text-xs font-medium tracking-wider leading-4 text-left text-gray-500 uppercase">Difficulty</span>
                 </th>
                 <th class="px-6 py-3 bg-gray-50">
                     <span
-                        class="text-xs font-medium tracking-wider leading-4 text-left text-gray-500 uppercase">Website</span>
+                        class="text-xs font-medium tracking-wider leading-4 text-left text-gray-500 uppercase">Time</span>
                 </th>
                 <th class="px-6 py-3 bg-gray-50">
                 </th>
